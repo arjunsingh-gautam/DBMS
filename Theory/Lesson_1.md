@@ -1,4 +1,4 @@
-# <span style="color:orange">Lesson-1 DBMS</span>
+# **<span style="color:orange">Lesson-1 DBMS</span>**
 
 ## <span style="color:pink">What is Database?</span>
 
@@ -162,7 +162,6 @@ You need a working system to store and retrieve the defined data format.
 #### 📖 What It Means:
 
 - Allows users to perform **CRUD operations**:
-
   - **C**reate (Insert)
   - **R**ead (Query)
   - **U**pdate
@@ -292,7 +291,9 @@ SELECT Name, Salary FROM Employees WHERE Salary > 50000;
 
 - **Definition**: A unique identifier for each record in a table.
 - **Example**: In the **Products** table above, `Product_ID` serves as the primary key.
-  **7. Foreign Key**
+
+### **7. Foreign Key**
+
 - **Definition**: A field in one table that links to the primary key in another table to establish relationships.
 - **Example**: In an **Orders** table, the `Product_ID` field references the `Product_ID` in the **Products** table.
 
@@ -320,7 +321,7 @@ CREATE INDEX idx_product_name ON Products(Product_Name);
 GRANT SELECT ON Products TO 'read_only_user;
 ```
 
-## **10. Transactions**
+### **10. Transactions**
 
 - **Definition**: A sequence of operations performed as a single unit of work, ensuring consistency and reliability.
 - **Example**: Transferring money between two bank accounts:
